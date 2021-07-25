@@ -117,3 +117,6 @@ JWTUtils.getToken(claims, null); // 自己封装过的JWT工具类, 生成token�
 
 > [https://github.com/JYbill/wx-login](https://github.com/JYbill/wx-login)
 
+## 流程
+
+![微信登录后查询](.\readme-image/小程序登陆流程.png)
