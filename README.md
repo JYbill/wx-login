@@ -1,14 +1,10 @@
----
-typora-root-url: readme-image
----
-
 # 微信小程序登陆流程
 
 + 环境：`springboot`、`小程序(ts)`
 
 + 官方实例：
 
-![img](/微信登录官方实例.jpg)
+![img](.\readme-image\微信登录官方实例.jpg)
 
 + 流程1：微信小程序通过`wx.login`获取到code，并将该code发送到后台, 这里我选择的是java后台, 当然也可以是node甚至云开发
 
@@ -107,12 +103,12 @@ JWTUtils.getToken(claims, null); // 自己封装过的JWT工具类, 生成token�
 
 + 默认`app-onLaunch`即登陆
 
-![微信登录](/微信登录.png)
+![微信登录](.\readme-image/微信登录.png)
 
 + 保存token
 
-![微信登录保存token](/微信登录保存token.png)
+![微信登录保存token](.\readme-image/微信登录保存token.png)
 
 + 点击`查询` -> 获取数据
 
-![微信登录后查询](/微信登录后查询.png)
+![微信登录后查询](.\readme-image/微信登录后查询.png)
