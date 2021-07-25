@@ -1,0 +1,3 @@
+<view class="index">
+  <button type="primary" bind:tap="findSome">查询</button>
+</view>
