@@ -4,7 +4,7 @@
 
 + 官方实例：
 
-![img](.\readme-image\微信登录官方实例.jpg)
+![img](./readme-image/微信登录官方实例.jpg)
 
 + 流程1：微信小程序通过`wx.login`获取到code，并将该code发送到后台, 这里我选择的是java后台, 当然也可以是node甚至云开发
 
